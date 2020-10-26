@@ -1,10 +1,11 @@
 .App {
   text-align: center;
-  background-color: #0F780E;
 }
 
 .app-header {
-  background-color: #A2131E;
+  background-color: #17A5E2;
+  top: 0;
+  margin-top:-1.5rem;
 
 }
 
@@ -12,16 +13,44 @@
   width: 40%
 }
 
+.header {
+  padding-top: 2rem;
+}
+
 .headerContainer {
   display: flex;
   justify-content: space-evenly;
 }
 .Main {
-  background-color: #D6B707;
+  background-color: #F5ED6D;
   height: 100%;
+  margin-top: -1em;
 }
 
-.nav {
+
+.navbar {
   display: flex;
-  flex-direction: inline  ;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.photos {
+  margin-bottom: 2rem;
+}
+
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  font-weight: bold;
+  letter-spacing: 1rem;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  letter-spacing: 1em;
+  color: white;
+  text-decoration: none;
+
 }

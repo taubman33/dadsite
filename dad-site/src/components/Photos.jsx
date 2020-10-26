@@ -2,6 +2,7 @@ import React from 'react'
 import BatMitzvah from './assets/photos/TaubmanPaperwork/BatMitzvah.jpg'
 import Nizhyn from './assets/photos/TaubmanPaperwork/NizhynCOA.jpg'
 import Peter from './assets/photos/TaubmanPaperwork/peter.jpg'
+import Louis from './assets/photos/TaubmanPaperwork/Louis.png'
 import RW1 from './assets/photos/TaubmanPaperwork/RthalKW.jpg'
 import RW2 from './assets/photos/TaubmanPaperwork/Rthalwedding1.jpg'
 import UK from './assets/photos/TaubmanPaperwork/unknown1.jpg'
@@ -13,8 +14,7 @@ function Photos () {
         <div className="photos">
          <h1> Misc. Family Photos</h1>
 
-         
-
+        
          <div className = "photos">
         <img src={BatMitzvah} className="familyPhoto"  alt="photo"/>
         <h2>Lowell on Left, Arthur on right, Leslie in the middle?</h2>
@@ -30,14 +30,22 @@ function Photos () {
         <h2>Peter Kopf</h2>
         </div>
 
+
+        
+        <div className = "photos">
+        <img src={Louis} className="familyPhoto"  alt="photo"/>
+        <h2>Louis Kopf</h2>
+        </div>
+
+
         <div className = "photos">
         <img src={RW1} className="familyPhoto"  alt="photo"/>
-        <h2>Rosenthal Wedding</h2>
+        <h2>Family in Key West</h2>
         </div>
 
         <div className = "photos">
         <img src={RW2} className="familyPhoto"  alt="photo"/>
-        <h2>Another shot of Rosenthal wedding</h2>
+        <h2> Rosenthal wedding</h2>
          </div>
 
         <div className = "photos">
