@@ -6,6 +6,8 @@ import Header from './components/Header'
 import Main from './components/Main'
 import TaubmanPapers from './components/TaubmanPapers'
 import About from './components/About'
+import Irving from "./components/Irving";
+import Photos from './components/Photos'
 
 
 
@@ -18,7 +20,16 @@ const routes = [
 
   { path: "/about",
   component: About
+  },
+
+  { path: "/irving",
+  component: Irving
+  },
+
+  { path: "/photos",
+   component: Photos
   }
+
 ]
 
 

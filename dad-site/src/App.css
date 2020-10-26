@@ -5,12 +5,12 @@
 
 .app-header {
   background-color: #A2131E;
+
 }
 
 .familyPhoto {
   width: 40%
 }
-
 
 .headerContainer {
   display: flex;

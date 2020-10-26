@@ -13,9 +13,16 @@ function Navbar (props) {
                   </div>
 
                   <div className="navbar-link">
-                  <Link to= '/papers'><h4> Documents</h4> </Link>
+                  <Link to= '/papers'><h4> Papers</h4> </Link>
                   </div>
 
+                  <div className="navbar-link">
+                  <Link to= '/irving'><h4> Irving Kopf</h4> </Link>
+                  </div>
+
+                  <div className="navbar-link">
+                  <Link to= '/photos'><h4> Family Photos</h4> </Link>
+                  </div>
                
             </div>
 
