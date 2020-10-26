@@ -30,108 +30,104 @@ return (
          <h1> Irving</h1>
         <div className = "photos">
         <img src={Irv1} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the news </h2>
         </div>
      
         <div className = "photos">
         <img src={Irv2} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Short story by Irving </h2>
        </div>
 
         <div className = "photos">
         <img src={Irv3} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the news more </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv4} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving with board of trustees </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv5} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Invitation to Masonic event led by Irving </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv6} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Invitation to Masonic event led by Irving </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv7} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Invitation to Masonic event led by Irving </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv8} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Invitation to Masonic event led by Irving </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv9} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Invitation to Masonic event led by Irving </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv10} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Invitation to Masonic event led by Irving </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv11} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving and Rae's record of marriage </h2>
         </div>
 
 
         <div className = "photos">
         <img src={Irv12} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the news </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv13} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the News </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv14} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Isador's birth record </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv15} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving's obituary </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv16} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the news </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv17} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the news 2 </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv18} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in the News </h2>
         </div>
 
         <div className = "photos">
         <img src={Irv19} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving in Masonic regalia </h2>
         </div>
 
-        <div className = "photos">
-        <img src={Irv20} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
-        </div>
 
         <div className = "photos">
         <img src={Irv21} className="familyPhoto"  alt="photo"/>
-        <h2> text </h2>
+        <h2> Irving with brother as child </h2>
         </div>
 
 

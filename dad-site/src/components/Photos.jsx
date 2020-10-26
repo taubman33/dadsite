@@ -2,7 +2,7 @@ import React from 'react'
 import BatMitzvah from './assets/photos/TaubmanPaperwork/BatMitzvah.jpg'
 import Nizhyn from './assets/photos/TaubmanPaperwork/NizhynCOA.jpg'
 import Peter from './assets/photos/TaubmanPaperwork/peter.jpg'
-import Louis from './assets/photos/TaubmanPaperwork/Louis.png'
+
 import RW1 from './assets/photos/TaubmanPaperwork/RthalKW.jpg'
 import RW2 from './assets/photos/TaubmanPaperwork/Rthalwedding1.jpg'
 import UK from './assets/photos/TaubmanPaperwork/unknown1.jpg'
@@ -28,13 +28,6 @@ function Photos () {
         <div className = "photos">
         <img src={Peter} className="familyPhoto"  alt="photo"/>
         <h2>Peter Kopf</h2>
-        </div>
-
-
-        
-        <div className = "photos">
-        <img src={Louis} className="familyPhoto"  alt="photo"/>
-        <h2>Louis Kopf</h2>
         </div>
 
 

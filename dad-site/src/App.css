@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F5ED6D;
 }
 
 .app-header {
@@ -21,10 +22,16 @@
   display: flex;
   justify-content: space-evenly;
 }
+
 .Main {
-  background-color: #F5ED6D;
+  padding-top: 3rem;
+
+}
+
+.Main-container {
   height: 100%;
-  margin-top: -1em;
+  margin-top: -4em;
+  padding: 2rem
 }
 
 
@@ -32,6 +39,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.navbar-link:hover{
+  transform: scale(1.2);
 }
 
 .photos {
