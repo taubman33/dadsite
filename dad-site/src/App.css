@@ -1,14 +1,24 @@
 .App {
   text-align: center;
-  background-color: green;
+  background-color: #0F780E;
 }
 
 .app-header {
-  background-color: red;
+  background-color: #A2131E;
 }
 
+.familyPhoto {
+  width: 40%
+}
+
+
+.headerContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
 .Main {
-  background-color: yellow;
+  background-color: #D6B707;
+  height: 100%;
 }
 
 .nav {

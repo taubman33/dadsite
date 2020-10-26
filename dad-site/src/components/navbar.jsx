@@ -9,17 +9,14 @@ function Navbar (props) {
            
             <div className="headerContainer">
                   <div className="navbar-link">
-                  <Link to= '/'><h4> Return Home</h4> </Link>
-                  </div>
-
-                  {/* <div className="navbar-link">
-                  <Link to='/form' className='nav-link'><h4>Log in</h4></Link>
+                  <Link to= '/about'><h4> About</h4> </Link>
                   </div>
 
                   <div className="navbar-link">
-                  <Link to='/register' className='nav-link'><h4>Register</h4></Link>
-                  </div> */}
+                  <Link to= '/papers'><h4> Documents</h4> </Link>
+                  </div>
 
+               
             </div>
 
           </div>
