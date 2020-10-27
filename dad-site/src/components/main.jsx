@@ -4,6 +4,7 @@ import About from './About'
 import Irving from './Irving'
 import TaubmanPapers from './TaubmanPapers'
 import Photos from './Photos'
+import Records from './Records'
 
 
  function Main () {
@@ -16,6 +17,7 @@ import Photos from './Photos'
          <Route exact path ="/papers" component={TaubmanPapers}/>
          <Route exact path ="/irving" component={Irving}/>
          <Route exact path ="/photos" component={Photos}/>
+         <Route exact path ="/records" component={Records}/>
        
          </div>
   
