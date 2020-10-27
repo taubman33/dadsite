@@ -8,7 +8,7 @@ function Navbar (props) {
         <div className= "navbar">
 
                   <div className="navbar-link">
-                  <Link to= '/about'><h4> About</h4> </Link>
+                  <Link to= '/'><h4> Home</h4> </Link>
                   </div>
 
                   <div className="navbar-link">

@@ -18,8 +18,11 @@ import Irv16 from './assets/photos/TaubmanPaperwork/IMG_8577.JPG'
 import Irv17 from './assets/photos/TaubmanPaperwork/IMG_8583.JPG'
 import Irv18 from './assets/photos/TaubmanPaperwork/IMG_8602.JPG'
 import Irv19 from './assets/photos/TaubmanPaperwork/IMG_8603.JPG'
-import Irv20 from './assets/photos/TaubmanPaperwork/IMG_8610.JPG'
 import Irv21 from './assets/photos/TaubmanPaperwork/IMG_9904.JPG'
+import Irv22 from './assets/photos/Family/IrvRae.jpg'
+import Irv23 from './assets/photos/Family/Rae1.jpg'
+import Irv24 from './assets/photos/Family/Rae3.jpg'
+
 
 
 
@@ -27,7 +30,14 @@ function Irving (){
 return (
 <div className = "photos-containter">
          
-         <h1> Irving</h1>
+         <h1> Irving and Rae Kopf</h1>
+        
+         <div className = "photos">
+        <img src={Irv19} className="familyPhoto"  alt="photo"/>
+        <h2> Irving in Masonic regalia </h2>
+        </div>
+
+
         <div className = "photos">
         <img src={Irv1} className="familyPhoto"  alt="photo"/>
         <h2> Irving in the news </h2>
@@ -36,6 +46,16 @@ return (
         <div className = "photos">
         <img src={Irv2} className="familyPhoto"  alt="photo"/>
         <h2> Short story by Irving </h2>
+       </div>
+
+       <div className = "photos">
+        <img src={Irv23} className="familyPhoto"  alt="photo"/>
+        <h2> Short story by Rae </h2>
+        </div>
+
+       <div className = "photos">
+        <img src={Irv22} className="familyPhoto"  alt="photo"/>
+        <h2> Irving and Rae with children </h2>
        </div>
 
         <div className = "photos">
@@ -119,15 +139,20 @@ return (
         <h2> Irving in the News </h2>
         </div>
 
-        <div className = "photos">
-        <img src={Irv19} className="familyPhoto"  alt="photo"/>
-        <h2> Irving in Masonic regalia </h2>
-        </div>
+   
 
 
         <div className = "photos">
         <img src={Irv21} className="familyPhoto"  alt="photo"/>
         <h2> Irving with brother as child </h2>
+        </div>
+
+       
+
+
+        <div className = "photos">
+        <img src={Irv24} className="familyPhoto"  alt="photo"/>
+        <h2> Photograph of Rae </h2>
         </div>
 
 

@@ -1,12 +1,33 @@
 import React from 'react'
-import LN1 from './assets/photos/TaubmanPaperwork/IMG_0267.jpg'
+import KW from './assets/photos/Family/KopfWed.jpg'
+import PK from './assets/photos/Family/PeppiKopf.jpg'
+import SK from './assets/photos/Family/SolKopf.jpg'
+
 
 
 function TaubmanPapers (){
 return (
 <div className = "photos-containter">
         
-      
+              
+<div className = "photos">
+        <h2> Newspaper articles</h2>
+        
+        <img src={KW} className="familyPhoto"  alt="photo"/>
+        <h2>  Kopf Wedding in the News</h2>
+        </div>
+
+                
+        <div className = "photos">
+        <img src={PK} className="familyPhoto"  alt="photo"/>
+        <h2> Peppi Kopf Obituary </h2>
+        </div>
+
+                
+        <div className = "photos">
+        <img src={SK} className="familyPhoto"  alt="photo"/>
+        <h2> Solomon Kopf obituary </h2>
+        </div>
  
 </div>
 

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #F5ED6D;
+  background-image: linear-gradient(to bottom right, #FCBA0A, #F5ED6D );
 }
 
 
@@ -10,10 +10,11 @@
   width: 100%;
   background-color: black;
   color: white;
+  padding-bottom:3rem; 
 }
 
 .app-header {
-  background-color: #17A5E2;
+  background-image: linear-gradient(to bottom right, #17A5E2, #1780DD);
   top: 0;
   margin-top:-1.5rem;
 
@@ -21,6 +22,10 @@
 
 .familyPhoto {
   width: 40%
+}
+
+.footer{
+  padding-top: 2rem;
 }
 
 .header {
@@ -34,6 +39,7 @@
 
 .Main {
   padding-top: 3rem;
+  margin-bottom: 3rem;
 
 }
 
@@ -64,6 +70,22 @@ h1{
   font-size: 5rem;
   font-weight: bold;
   letter-spacing: 1rem;
+
+}
+
+h2{
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+h3
+{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  letter-spacing: .3em;
+  color: white;
+  text-decoration: none;
+
 }
 
 h4 {

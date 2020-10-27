@@ -19,7 +19,7 @@ const routes = [
     component: TaubmanPapers,
   },
 
-  { path: "/about",
+  { path: "/",
   component: About
   },
 
