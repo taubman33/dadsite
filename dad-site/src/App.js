@@ -31,7 +31,6 @@ const routes = [
   component: Records
   },
 
-
   { path: "/photos",
    component: Photos
   }
@@ -48,7 +47,7 @@ class App extends Component {
     <div className="App">
     <Header/>
     <Main/>
-
+    <Footer/>
     </div>
 
    </Router>    

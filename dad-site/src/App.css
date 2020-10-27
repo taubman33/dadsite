@@ -3,6 +3,15 @@
   background-color: #F5ED6D;
 }
 
+
+.app-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
 .app-header {
   background-color: #17A5E2;
   top: 0;
@@ -59,7 +68,7 @@ h1{
 
 h4 {
   font-family: 'Playfair Display', serif;
-  font-size: 2rem;
+  font-size: 1.3rem;
   letter-spacing: 1em;
   color: white;
   text-decoration: none;

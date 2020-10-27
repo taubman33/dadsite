@@ -12,7 +12,7 @@ function Navbar (props) {
                   </div>
 
                   <div className="navbar-link">
-                  <Link to= '/papers'><h4> Papers</h4> </Link>
+                  <Link to= '/papers'><h4> Newspapers</h4> </Link>
                   </div>
 
                   <div className="navbar-link">
@@ -23,6 +23,10 @@ function Navbar (props) {
                   <Link to= '/photos'><h4> Family Photos</h4> </Link>
                   </div>
                
+                  <div className="navbar-link">
+                  <Link to= '/records'><h4> Family Records</h4> </Link>
+                  </div>
+
             </div>
 
           </div>

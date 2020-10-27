@@ -1,15 +1,79 @@
 import React from 'react'
-import Navbar from './Navbar'
+
+import LN1 from './assets/photos/TaubmanPaperwork/IMG_0267.jpg'
+import LN2 from './assets/photos/TaubmanPaperwork/IMG_0268.jpg'
+import LN3 from './assets/photos/TaubmanPaperwork/IMG_0269.jpg'
+import Louis from './assets/photos/TaubmanPaperwork/Louis.png'
+import BenK from './assets/photos/Family/BenKopf.jpg'
+import Harry3 from './assets/photos/Family/Harry3.jpg'
+import JenL from './assets/photos/Family/JenL.jpg'
+import Lenore from './assets/photos/Family/Lenore.jpg'
+
+import Pass1 from './assets/photos/Family/pass1.jpg'
+import Sperl1 from './assets/photos/Family/SPerl.jpg'
+import Sperl2 from './assets/photos/Family/Sperl2.jpg'
 
 
-function Header() {
+function Records() {
  return (
-    <div className ='app-header'>
-        <div className="header">
-        <h1> Our Family Through The Centuries</h1>
+    <div className ='app-records'>
+        <div className="records">
+
+        <div className = "photos">
+            <img src={LN1} className="familyPhoto"  alt="photo"/>
+            <h2>Origin of Taubman family name</h2>
+        </div>
+        <div className = "photos">
+            <img src={LN2} className="familyPhoto"  alt="photo"/>
+            <h2>Marriage certificate of Harry and Celia</h2>
+        </div>
+        <div className = "photos">
+            <img src={LN3} className="familyPhoto"  alt="photo"/>
+            <h2>History of Taubman name</h2>
+        </div>
+        <div className = "photos">
+            <img src={Louis} className="familyPhoto"  alt="photo"/>
+            <h2>Louis Kopf Census record</h2>
+        </div>
+
+      
+        <div className = "photos">
+            <img src={BenK} className="familyPhoto"  alt="photo"/>
+            <h2>Benjamin Kopf birth certificate</h2>
+        </div>
+
+
+        <div className = "photos">
+            <img src={JenL} className="familyPhoto"  alt="photo"/>
+            <h2>Jennie Lieberman Census Record</h2>
+        </div>
+
+        <div className = "photos">
+            <img src={Lenore} className="familyPhoto"  alt="photo"/>
+            <h2>Lenore Kopf census record</h2>
+        </div>
+
+
+        <div className = "photos">
+            <img src={Pass1} className="familyPhoto"  alt="photo"/>
+            <h2>Passport info for Lowell and Celia Taubman</h2>
+        </div>
+
+        <div className = "photos">
+            <img src={Sperl1} className="familyPhoto"  alt="photo"/>
+            <h2>Sarah Perlitz New York passenger information</h2>
+        </div>
+
+        <div className = "photos">
+            <img src={Sperl2} className="familyPhoto"  alt="photo"/>
+            <h2>Sam Perltiz Social Security information</h2>
+        </div>
+
+
+       
         </div>
         
-        <Navbar/>    
+      
         </div>
 
 
@@ -17,4 +81,4 @@ function Header() {
 }
 
 
-export default Header 
+export default Records 
