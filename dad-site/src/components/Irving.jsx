@@ -23,6 +23,7 @@ import Irv22 from './assets/photos/Family/IrvRae.jpg'
 import Irv23 from './assets/photos/Family/Rae1.jpg'
 import Irv24 from './assets/photos/Family/Rae3.jpg'
 import Irv25 from './assets/photos/Batch2/IrvHit.jpg'
+import Irv26 from './assets/photos/Batch2/Rae4.jpg'
 
 
 
@@ -52,6 +53,11 @@ return (
         <img src={Irv23} className="familyPhoto"  alt="photo"/>
         <h2> Short story by Rae </h2>
         </div>
+
+     <div className = "photos">
+        <img src={Irv26} className="familyPhoto"  alt="photo"/>
+        <h2> Short story by Rae </h2>
+     </div>
 
        <div className = "photos">
         <img src={Irv22} className="familyPhoto"  alt="photo"/>
@@ -118,7 +124,7 @@ return (
 
         <div className = "photos">
         <img src={Irv14} className="familyPhoto"  alt="photo"/>
-        <h2> Isador's birth record </h2>
+        <h2> Isador "Irving"'s birth record </h2>
         </div>
 
         <div className = "photos">

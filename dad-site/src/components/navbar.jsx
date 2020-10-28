@@ -7,8 +7,11 @@ function Navbar (props) {
   <div className="navbar-container">
         <div className= "navbar">
 
+          <div className="Link-text">
           <h4 style={{textDecoration:"underline"}}> Links to Pictures and Information</h4>
-            
+          </div>
+
+
                   <div className="navbar-link">
                   <Link to= '/'><h4> • Home</h4> </Link>
                   </div>

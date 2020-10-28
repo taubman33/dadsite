@@ -1,6 +1,6 @@
 import React from 'react'
 import BatMitzvah from './assets/photos/TaubmanPaperwork/BatMitzvah.jpg'
-import Nizhyn from './assets/photos/TaubmanPaperwork/NizhynCOA.jpg'
+
 import Peter from './assets/photos/TaubmanPaperwork/peter.jpg'
 
 import RW1 from './assets/photos/TaubmanPaperwork/RthalKW.jpg'
@@ -23,13 +23,20 @@ function Photos () {
 
         
          <div className = "photos">
-        <img src={BatMitzvah} className="familyPhoto"  alt="photo"/>
-        <h2>Lowell on Left, Arthur on right, Leslie in the middle</h2>
+        <img src={Perl} className="familyPhoto"  alt="photo"/>
+        <h2>Advertisement for Perlitz Bros. Photo Studio</h2>
         </div>
 
+
         <div className = "photos">
-        <img src={Nizhyn} className="familyPhoto"  alt="photo"/>
-        <h2>Coat of Arms of Nizhyn, Ukraine, where part of the family immigrated from</h2>
+        <img src={Harry1} className="familyPhoto"  alt="photo"/>
+        <h2>Letter to Harry Taubman in Russian</h2>
+        </div>
+
+
+        <div className = "photos">
+        <img src={Harry2} className="familyPhoto"  alt="photo"/>
+        <h2>Letter to Harry Taubman in Russian</h2>
         </div>
 
         <div className = "photos">
@@ -58,24 +65,18 @@ function Photos () {
         <h2>Unknown family gathering</h2>
         </div>
 
-        <div className = "photos">
-        <img src={Harry1} className="familyPhoto"  alt="photo"/>
-        <h2>Letter to Harry Taubman in Russian</h2>
-        </div>
-
-        <div className = "photos">
-        <img src={Harry2} className="familyPhoto"  alt="photo"/>
-        <h2>Letter to Harry Taubman in Russian</h2>
-        </div>
-
-        <div className = "photos">
-        <img src={Perl} className="familyPhoto"  alt="photo"/>
-        <h2>Advertisement for Perlitz Bros. Photo Studio</h2>
-        </div>
+      
 
         <div className = "photos">
         <img src={Irv4} className="familyPhoto"  alt="photo"/>
         <h2> Lawrence Kopf with board of trustees </h2>
+
+        <div className = "photos">
+        <img src={BatMitzvah} className="familyPhoto"  alt="photo"/>
+        <h2>Lowell on Left, Arthur on right, Leslie in the middle</h2>
+        </div>
+
+
 </div>
 
         </div>

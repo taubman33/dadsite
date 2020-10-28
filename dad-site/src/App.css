@@ -151,6 +151,10 @@ padding: 2rem;
   }
   
 
+.Link-text{
+  display: none;
+}  
+
   .header {
 padding: 2rem;
   }
