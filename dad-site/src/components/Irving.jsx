@@ -22,12 +22,14 @@ import Irv21 from './assets/photos/TaubmanPaperwork/IMG_9904.JPG'
 import Irv22 from './assets/photos/Family/IrvRae.jpg'
 import Irv23 from './assets/photos/Family/Rae1.jpg'
 import Irv24 from './assets/photos/Family/Rae3.jpg'
+import Irv25 from './assets/photos/Batch2/IrvHit.jpg'
 
 
 
 function Irving (){
 return (
-<div className = "photos-containter">
+<div className = "photos-containter"
+ style={{marginTop:"3rem"}}>
          
          <h2> Irving and Rae Kopf</h2>
         
@@ -96,6 +98,12 @@ return (
         <div className = "photos">
         <img src={Irv11} className="familyPhoto"  alt="photo"/>
         <h2> Irving and Rae's record of marriage </h2>
+        </div>
+
+
+        <div className = "photos">
+        <img src={Irv25} className="familyPhoto"  alt="photo"/>
+        <h2> Article about Hitler written by Irving </h2>
         </div>
 
 

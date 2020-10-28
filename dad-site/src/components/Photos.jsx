@@ -17,7 +17,8 @@ import Irv4 from './assets/photos/TaubmanPaperwork/irv4.jpg'
 function Photos () {
 
     return (
-        <div className="photos">
+        <div className="photos"
+        style={{marginTop:"3rem"}}>
          <h1> Misc. Family Photos</h1>
 
         

@@ -5,7 +5,7 @@ import LN2 from './assets/photos/TaubmanPaperwork/IMG_0268.jpg'
 import LN3 from './assets/photos/TaubmanPaperwork/IMG_0269.jpg'
 import Louis from './assets/photos/TaubmanPaperwork/Louis.png'
 import BenK from './assets/photos/Family/BenKopf.jpg'
-import Harry3 from './assets/photos/Family/Harry3.jpg'
+
 import JenL from './assets/photos/Family/JenL.jpg'
 import Lenore from './assets/photos/Family/Lenore.jpg'
 
@@ -13,10 +13,17 @@ import Pass1 from './assets/photos/Family/pass1.jpg'
 import Sperl1 from './assets/photos/Family/SPerl.jpg'
 import Sperl2 from './assets/photos/Family/Sperl2.jpg'
 
+import Celia from './assets/photos/Batch2/Celia1.jpg'
+import Esther1 from './assets/photos/Batch2/Esther1.jpg'
+import Sam1 from './assets/photos/Batch2/Sam1.jpg'
+
 
 function Records() {
  return (
-    <div className ='app-records'>
+    <div className ='app-records'
+    style={{marginTop:"3rem"}}>
+
+        
         <div className="records">
 
         <div className = "photos">
@@ -39,6 +46,21 @@ function Records() {
             <h2>Benjamin Kopf birth certificate</h2>
         </div>
 
+
+        <div className = "photos">
+            <img src={Celia} className="familyPhoto"  alt="photo"/>
+            <h2>Celia's application for citizenship</h2>
+        </div>
+
+        <div className = "photos">
+            <img src={Sam1} className="familyPhoto"  alt="photo"/>
+            <h2>Sam Rosenthal WW1 draft form </h2>
+        </div>
+
+        <div className = "photos">
+            <img src={Esther1} className="familyPhoto"  alt="photo"/>
+            <h2>Esther Census Record</h2>
+        </div>
 
         <div className = "photos">
             <img src={JenL} className="familyPhoto"  alt="photo"/>
