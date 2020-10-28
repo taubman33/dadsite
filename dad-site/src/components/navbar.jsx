@@ -11,14 +11,20 @@ function Navbar (props) {
                   <Link to= '/'><h4> Home</h4> </Link>
                   </div>
 
-                  <div className="navbar-link">
-                  <Link to= '/papers'><h4> Newspapers</h4> </Link>
-                  </div>
 
                   <div className="navbar-link">
                   <Link to= '/irving'><h4> Irving Kopf</h4> </Link>
                   </div>
 
+
+                  <div className="navbar-link">
+                  <Link to= '/papers'><h4> Newspapers</h4> </Link>
+                  </div>
+
+                  <div className="navbar-link">
+                  <Link to= '/email'><h4> Email Correspondence</h4> </Link>
+                  </div>
+            
                   <div className="navbar-link">
                   <Link to= '/photos'><h4> Family Photos</h4> </Link>
                   </div>

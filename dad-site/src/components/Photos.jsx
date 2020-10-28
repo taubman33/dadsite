@@ -11,6 +11,8 @@ import KW3 from './assets/photos/Family/KW3.jpg'
 import Harry1 from './assets/photos/Family/Harry1.jpg'
 import Harry2 from './assets/photos/Family/Harry2.jpg'
 import Perl from './assets/photos/Family/Perlitz.jpg'
+import Irv4 from './assets/photos/TaubmanPaperwork/irv4.jpg'
+
 
 function Photos () {
 
@@ -21,12 +23,12 @@ function Photos () {
         
          <div className = "photos">
         <img src={BatMitzvah} className="familyPhoto"  alt="photo"/>
-        <h2>Lowell on Left, Arthur on right, Leslie in the middle?</h2>
+        <h2>Lowell on Left, Arthur on right, Leslie in the middle</h2>
         </div>
 
         <div className = "photos">
         <img src={Nizhyn} className="familyPhoto"  alt="photo"/>
-        <h2>Coat of Arms of Nizhyn, Ukraine</h2>
+        <h2>Coat of Arms of Nizhyn, Ukraine, where part of the family immigrated from</h2>
         </div>
 
         <div className = "photos">
@@ -70,7 +72,10 @@ function Photos () {
         <h2>Advertisement for Perlitz Bros. Photo Studio</h2>
         </div>
 
-        
+        <div className = "photos">
+        <img src={Irv4} className="familyPhoto"  alt="photo"/>
+        <h2> Lawrence Kopf with board of trustees </h2>
+</div>
 
         </div>
     )

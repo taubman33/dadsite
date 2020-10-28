@@ -5,6 +5,7 @@ import Irving from './Irving'
 import TaubmanPapers from './TaubmanPapers'
 import Photos from './Photos'
 import Records from './Records'
+import Email from './Email'
 
 
  function Main () {
@@ -18,6 +19,7 @@ import Records from './Records'
          <Route exact path ="/irving" component={Irving}/>
          <Route exact path ="/photos" component={Photos}/>
          <Route exact path ="/records" component={Records}/>
+         <Route exact path ="/email" component={Email}/>
        
          </div>
   

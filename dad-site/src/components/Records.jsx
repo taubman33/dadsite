@@ -23,20 +23,17 @@ function Records() {
             <img src={LN1} className="familyPhoto"  alt="photo"/>
             <h2>Origin of Taubman family name</h2>
         </div>
-        <div className = "photos">
-            <img src={LN2} className="familyPhoto"  alt="photo"/>
-            <h2>Marriage certificate of Harry and Celia</h2>
-        </div>
+  
         <div className = "photos">
             <img src={LN3} className="familyPhoto"  alt="photo"/>
             <h2>History of Taubman name</h2>
         </div>
-        <div className = "photos">
-            <img src={Louis} className="familyPhoto"  alt="photo"/>
-            <h2>Louis Kopf Census record</h2>
-        </div>
+    
 
-      
+        <div className = "photos">
+            <img src={LN2} className="familyPhoto"  alt="photo"/>
+            <h2>Marriage certificate of Harry and Celia</h2>
+        </div>
         <div className = "photos">
             <img src={BenK} className="familyPhoto"  alt="photo"/>
             <h2>Benjamin Kopf birth certificate</h2>
@@ -53,6 +50,11 @@ function Records() {
             <h2>Lenore Kopf census record</h2>
         </div>
 
+
+        <div className = "photos">
+            <img src={Louis} className="familyPhoto"  alt="photo"/>
+            <h2>Louis Kopf Census record</h2>
+        </div>
 
         <div className = "photos">
             <img src={Pass1} className="familyPhoto"  alt="photo"/>

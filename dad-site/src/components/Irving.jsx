@@ -2,7 +2,7 @@ import React from 'react'
 import Irv1 from './assets/photos/TaubmanPaperwork/Irv1.jpg'
 import Irv2 from './assets/photos/TaubmanPaperwork/Irv2.jpg'
 import Irv3 from './assets/photos/TaubmanPaperwork/irv3.jpg'
-import Irv4 from './assets/photos/TaubmanPaperwork/irv4.jpg'
+
 import Irv5 from './assets/photos/TaubmanPaperwork/IrvMas1.jpg'
 import Irv6 from './assets/photos/TaubmanPaperwork/IrvMas2.jpg'
 import Irv7 from './assets/photos/TaubmanPaperwork/irvmas3.jpg'
@@ -25,12 +25,11 @@ import Irv24 from './assets/photos/Family/Rae3.jpg'
 
 
 
-
 function Irving (){
 return (
 <div className = "photos-containter">
          
-         <h1> Irving and Rae Kopf</h1>
+         <h2> Irving and Rae Kopf</h2>
         
          <div className = "photos">
         <img src={Irv19} className="familyPhoto"  alt="photo"/>
@@ -63,11 +62,7 @@ return (
         <h2> Irving in the news more </h2>
         </div>
 
-        <div className = "photos">
-        <img src={Irv4} className="familyPhoto"  alt="photo"/>
-        <h2> Irving with board of trustees </h2>
-        </div>
-
+ 
         <div className = "photos">
         <img src={Irv5} className="familyPhoto"  alt="photo"/>
         <h2> Invitation to Masonic event led by Irving </h2>

@@ -10,6 +10,7 @@ import About from './components/About';
 import Irving from './components/Irving';
 import Photos from './components/Photos';
 import Records from './components/Records'
+import Email from './components/Email';
 
 
 
@@ -21,6 +22,10 @@ const routes = [
 
   { path: "/",
   component: About
+  },
+
+  { path: "/email",
+  component: Email
   },
 
   { path: "/irving",

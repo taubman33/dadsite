@@ -6,7 +6,7 @@ function About (){
         
         <div className="Main"
         style={{height:"100vh"}}>
-<h2> Welcome to our collection of family artifacts and photographs from the 19th and 20th centuries </h2>
+<h2> Welcome to our collection of family relics and photographs from the 19th, 20th and 21st centuries </h2>
 
 
 <div className = "photos">
