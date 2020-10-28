@@ -19,7 +19,7 @@ function Photos () {
     return (
         <div className="photos"
         style={{marginTop:"3rem"}}>
-         <h1> Misc. Family Photos</h1>
+         <h2> Misc. Family Photos</h2>
 
         
          <div className = "photos">

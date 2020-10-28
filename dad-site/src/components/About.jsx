@@ -4,8 +4,8 @@ import home1 from './assets/photos/Family/home1.jpg'
 function About (){
     return(
         
-        <div className="Main"
-        style={{height:"100vh"}}>
+        <div className="About"
+        style={{height:"100vh", marginLeft:"3rem", marginTop:"3rem"}}>
 <h2> Welcome to our collection of family relics and photographs from the 19th, 20th and 21st centuries </h2>
 
 

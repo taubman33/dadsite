@@ -11,6 +11,7 @@ function Email () {
     return(
   <div className = "emails"
   style={{marginTop:"3rem"}}>
+      <h2> Email Correspondence</h2>
 
         <div className = "photos">
         <img src={Email3} className="familyPhoto"  alt="photo"/>

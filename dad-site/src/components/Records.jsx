@@ -23,7 +23,7 @@ function Records() {
     <div className ='app-records'
     style={{marginTop:"3rem"}}>
 
-        
+        <h2> Historic Family Records</h2>
         <div className="records">
 
         <div className = "photos">

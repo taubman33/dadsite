@@ -28,8 +28,7 @@ import Irv25 from './assets/photos/Batch2/IrvHit.jpg'
 
 function Irving (){
 return (
-<div className = "photos-containter"
- style={{marginTop:"3rem"}}>
+<div className = "photos-containter">
          
          <h2> Irving and Rae Kopf</h2>
         

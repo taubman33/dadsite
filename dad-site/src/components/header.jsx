@@ -9,7 +9,7 @@ function Header() {
         <h1> Our Family Through The Centuries</h1>
         </div>
         
-        <Navbar/>    
+      
         </div>
 
 

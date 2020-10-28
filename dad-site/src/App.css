@@ -1,6 +1,10 @@
 .App {
   text-align: center;
   background-image: linear-gradient(to bottom right, #FCBA0A, #F5ED6D );
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 0 0 12em;
 }
 
 
@@ -20,6 +24,15 @@
 
 }
 
+.aside { 
+  /* display: block; */
+  background-color: black;
+  order: -1;
+  width: 35rem;
+  margin: 0;
+  margin-top: 2rem;
+  }
+
 .familyPhoto {
   width: 40%
 }
@@ -38,8 +51,8 @@
 }
 
 .Main {
-  padding-top: 3rem;
-  margin-bottom: 3rem;
+  padding-top:3rem;
+  margin-top: 3rem;
 
 }
 
@@ -51,11 +64,6 @@
 }
 
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
 
 .navbar-link:hover{
   transform: scale(1.2);
@@ -96,6 +104,23 @@ h4 {
 
 }
 
+
+
+.Main {
+  padding:.5rem;
+  margin-left:2rem;
+}
+
+
+.navbar-link {
+margin-bottom: 4rem;
+}
+
+.Main-containter {
+display: flex;
+margin-top:-2rem;
+}
+
 @media only screen and (max-width: 1000px) {
   h1{
     font-size: 2rem;
@@ -111,12 +136,7 @@ h4 {
 padding: 2rem;
   }
 
-  .Main {
-    padding:.5rem;
-  }
 }
-
-
 @media only screen and (max-width: 600px) {
   h1{
     font-size: 2rem;
