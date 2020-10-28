@@ -8,10 +8,10 @@ import SK from './assets/photos/Family/SolKopf.jpg'
 function TaubmanPapers (){
 return (
 <div className = "photos-containter">
-        
+<h2> Newspaper articles</h2>
               
 <div className = "photos">
-        <h2> Newspaper articles</h2>
+       
         
         <img src={KW} className="familyPhoto"  alt="photo"/>
         <h2>  Kopf Wedding in the News</h2>
